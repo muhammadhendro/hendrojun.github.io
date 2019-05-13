@@ -1,0 +1,61 @@
+section{
+	min-height: 420px;
+}
+
+.jumbotron {
+
+	background-image: url('../img/bg2.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -50px;
+	color: #eaeaea;
+	overflow: hidden;
+}
+
+.jumbotron img{
+
+	width: 25%;
+}
+
+.jumbotron h1, .jumbotron p{
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+hr{
+	width: 250px;
+	border-top: 3px solid #999
+}
+
+.about img{
+	width: 50px;
+	
+}
+.portfolio p{
+	text-align: center;
+}
+
+.about .aboutkiri, .about .aboutkanan{
+	opacity: 0;
+	transform: translate(-50px, 0) rotate(15deg);
+	transition:  2s;
+}
+
+.about .aboutkanan{
+	
+	transform: translate(50px, 0) rotate(-15deg);
+}
+.about .aboutkiri.muncul, .about .aboutkanan.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.portfolio .card{
+	opacity: 0;
+	transform: translate(0, -40px);
+	transition: 1s;
+}
+
+.portfolio .card.muncul{
+	opacity: 1;
+	transform: translate(0, 0);
+}
