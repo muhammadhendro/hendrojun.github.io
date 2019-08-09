@@ -2,3 +2,4 @@
 web portfolio 
 
 - Bootstrap
+- Javascript
